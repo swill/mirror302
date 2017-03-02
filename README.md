@@ -13,10 +13,10 @@ Mirror302 configuration is handled by [Viper](https://github.com/spf13/viper), s
 
 The config file must be named `config.xyz`, where `xyz` is the file extension to match the chosen configuration format from the list above.  The config file must be placed in the same directory the binary as the binary.
 
-]
-**Config Options**
 
-- `mirror_list_url` (required) - The complete URL to the mirror list text file.  EG: http://domain.com/path/to/mirrors.txt
+**Configuration Options**
+
+- `mirror_list_url` (required) - The complete URL to the mirror list text file.  For example: http://domain.com/path/to/mirrors.txt
 - `port` (optional, default: `8080`) - The port the web server runs on.
 - `timeout` (optional, default: `10`) - The number of seconds to wait for the HEAD of the requested path before giving up.
 
