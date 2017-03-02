@@ -5,7 +5,7 @@ Mirror302 is a web server designed to consume a mirror list and then redirect th
 
 The primary use case this is designed to solve is to have a single published URL which fronts a dynamic group of mirrors.  The end users will always point to the single published URL and the request will be handled by one of the established mirrors.
 
-Mirror302 will concurrently check that the requested resource exists with a `HEAD` on each mirror and the first mirror to respond with a `200` will be chosen to service the resource and the client will be `302` redirected to that resource.
+Mirror302 will concurrently check that the requested resource exists with a `HEAD` on each mirror.  The first mirror to respond with a `200` will be chosen to serve the resource and the client will be `302` redirected to the resource on that mirror.
 
 
 Configuration
