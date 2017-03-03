@@ -13,7 +13,7 @@ Configuration
 
 Mirror302 configuration is handled by [Viper](https://github.com/spf13/viper), so the config can be defined in any of JSON, TOML, YAML, HCL, and Java properties config files.
 
-The config file must be named `config.xyz`, where `xyz` is the file extension to match the chosen configuration format from the list above.  The config file must be placed in the same directory the binary as the binary.
+The config file must be named `config.xyz`, where `xyz` is the file extension to match the chosen configuration format from the list above.  The config file must be placed in the same directory as the binary.
 
 
 **Configuration Options**
